@@ -1,5 +1,5 @@
 import download from 'download'
-import * as moment from 'moment'
+import moment from 'moment'
 import path from 'path'
 import { Storage } from '@google-cloud/storage'
 
