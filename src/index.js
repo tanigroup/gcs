@@ -68,6 +68,10 @@ class GCS {
 
     return false
   }
+
+  file(fileName) {
+    return this.myBucket.file(fileName)
+  }
 }
 
 export default GCS
